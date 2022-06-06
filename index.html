@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="libs/fontawesome/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Display:ital,wght@1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -61,7 +67,7 @@
               src="./img/logo/logolachong.png"
               alt="logolachong"
             />
-            <h2>Trung tâm đào tạo sát hạch lái xe lạc hồng</h2>
+            <h2 class="wow">Trung tâm đào tạo sát hạch lái xe lạc hồng</h2>
           </a>
           <div class="contact-header__information">
             <a href="#" class="contact-header__infor">
@@ -595,9 +601,13 @@
           </div>
         </div>
 
-        <div class="advice-email">  
+        <div class="advice-email">
           <form action="#" class="validate-form">
-            <img class="validate-form__dot" src="./img/dotadviceemail.png" alt="dotemail">
+            <img
+              class="validate-form__dot"
+              src="./img/dotadviceemail.png"
+              alt="dotemail"
+            />
             <div class="validate-form__title">
               <h1>Bạn cần hỗ trợ</h1>
               <p>Để lại câu hỏi chúng tôi sẽ giải đáp thắc mắc của bạn</p>
@@ -762,5 +772,19 @@ Nội dung câu hỏi</textarea
         </div>
       </footer>
     </div>
+
+    <script>
+      ScrollReveal ({
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      })
+
+      ScrollReveal().reveal('.gallery-width, .product__img--normalcar, .product__img--luxcar, .product__img--dotcar, .product__imgv2--luxcar2, .product__imgv2--normalcar2, .product__imgv2--dotcar2 ,.product__imgv2--normalcar3', { delay: 500, origin: 'left' });
+      ScrollReveal().reveal('.product__information', { delay: 500, origin: 'right' });
+      ScrollReveal().reveal('.courses-introduce__block, .validate-form', { delay: 600, origin: 'bottom', interval: 200 });
+      ScrollReveal().reveal('.choose-courses__tags', { delay: 600, origin: 'top', interval: 200 });
+    </script>
   </body>
 </html>
