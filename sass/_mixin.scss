@@ -1,0 +1,8 @@
+@mixin maxwidth {
+    max-width: 128rem;
+    margin: auto;
+}
+
+@mixin transitionx {
+    transition: all 0.2s linear;
+}

@@ -21,31 +21,37 @@
   <body>
     <div class="container">
       <header class="header">
-        <nav class="social">
-          <a href="#" class="social__media">
-            <object
-              type="image/svg+xml"
-              data="./img/svg/facebookheader.svg"
-            ></object>
-          </a>
-          <a href="#" class="social__media">
-            <object
-              type="image/svg+xml"
-              data="./img/svg/chainheader.svg"
-            ></object>
-          </a>
-          <a href="#" class="social__media">
-            <object
-              type="image/svg+xml"
-              data="./img/svg/twitterheader.svg"
-            ></object>
-          </a>
-          <a href="#" class="social__media">
-            <object
-              type="image/svg+xml"
-              data="./img/svg/pinterestheader.svg"
-            ></object>
-          </a>
+        <nav class="social-nav">
+          <div class="social">
+            <a
+              href="https://www.facebook.com/daylaixelachong/"
+              target="_blank"
+              class="social__media"
+            >
+              <img src="./img/svg/facebookheader.svg" alt="facebook" />
+            </a>
+            <a
+              href="https://www.facebook.com/daylaixelachong/"
+              target="_blank"
+              class="social__media"
+            >
+              <img src="./img/svg/chainheader.svg" alt="chain header" />
+            </a>
+            <a
+              href="https://www.facebook.com/daylaixelachong/"
+              target="_blank"
+              class="social__media"
+            >
+              <img src="./img/svg/twitterheader.svg" alt="twttiter header" />
+            </a>
+            <a
+              href="https://www.facebook.com/daylaixelachong/"
+              target="_blank"
+              class="social__media"
+            >
+              <img src="./img/svg/pinterestheader.svg" alt="pinterest header" />
+            </a>
+          </div>
         </nav>
 
         <div class="contact-header">
@@ -66,7 +72,10 @@
               ></object>
               <p>Tổ 34 thị trấn Liên Nghĩa Đức Trọng, tỉnh Lâm Đồng</p>
             </a>
-            <a href="#" class="contact-header__infor">
+            <a
+              href="mailto:dinhbao2601.work@gmail.com"
+              class="contact-header__infor"
+            >
               <object
                 class="contact-header__smlogo"
                 type="image/svg+xml"
@@ -74,7 +83,7 @@
               ></object>
               <p>dinhbao2601.work@gmail.com</p>
             </a>
-            <a href="#" class="contact-header__infor">
+            <a href="tel:0799405060" class="contact-header__infor">
               <object
                 class="contact-header__smlogo"
                 type="image/svg+xml"
@@ -85,43 +94,57 @@
           </div>
         </div>
 
-        <nav class="sidebar">
-          <ul class="side-nav">
-            <li class="side-nav__item side-nav__item--active">
-              <a href="#" class="side-nav__link"><span>Trang Chủ</span></a>
-            </li>
-            <li class="side-nav__item">
-              <a href="#" class="side-nav__link"><span> Giới Thiệu </span></a>
-            </li>
-            <li class="side-nav__item">
-              <a href="#" class="side-nav__link"><span> Thông tin </span></a>
-            </li>
-            <li class="side-nav__item">
-              <a href="#" class="side-nav__link"><span> Đào tạo </span></a>
-            </li>
-            <li class="side-nav__item">
-              <a href="#" class="side-nav__link"><span> Tin tức </span></a>
-            </li>
-            <li class="side-nav__item">
-              <a href="#" class="side-nav__link"><span> Ảnh/Video </span></a>
-            </li>
-            <li class="side-nav__item">
-              <a href="#" class="side-nav__link"><span> Liên hệ </span></a>
-            </li>
-          </ul>
-          <div class="menu-nav">
-            <i class="fa-solid fa-bars menu-nav__header"></i>
+        <nav class="navbar">
+          <div class="navbar-width">
+            <div class="sidebar">
+              <ul class="side-nav">
+                <li class="side-nav__item side-nav__item--active">
+                  <a href="#" class="side-nav__link"><span>Trang Chủ</span></a>
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link"
+                    ><span> Giới Thiệu </span></a
+                  >
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link"
+                    ><span> Thông tin </span></a
+                  >
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link"><span> Đào tạo </span></a>
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link"><span> Tin tức </span></a>
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link"
+                    ><span> Ảnh/Video </span></a
+                  >
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link"><span> Liên hệ </span></a>
+                </li>
+              </ul>
+              <div class="menu-nav">
+                <i class="fa-solid fa-bars menu-nav__header"></i>
+              </div>
+              <form action="#" class="search">
+                <input
+                  type="text"
+                  class="search__input"
+                  placeholder="Tìm kiếm"
+                />
+                <button class="search__button">
+                  <img
+                    class="search__icon"
+                    src="./img/search.png"
+                    alt="search header"
+                  />
+                </button>
+              </form>
+            </div>
           </div>
-          <form action="#" class="search">
-            <input type="text" class="search__input" placeholder="Tìm kiếm" />
-            <button class="search__button">
-              <img
-                class="search__icon"
-                src="./img/search.png"
-                alt="search header"
-              />
-            </button>
-          </form>
         </nav>
       </header>
       <main class="center-service">
@@ -142,183 +165,187 @@
               />
             </button>
           </div>
-          <form action="#" class="form-gallery__form">
-            <div class="form-gallery__title">
-              <p>Đăng ký khoá học</p>
-            </div>
-            <div class="form-gallery__authform">
-              <div class="form-gallery__name">
-                <object
-                  class="form-gallery__icon"
-                  type="image/svg+xml"
-                  data="./img/svg/Profile.svg"
-                ></object>
-                <label for="name" hidden>Họ và tên</label>
-                <input
-                  class="form-gallery__validate"
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Họ và tên"
-                  required
-                />
+          <div class="gallery-width">
+            <form action="#" class="form-gallery__form">
+              <div class="form-gallery__title">
+                <p>Đăng ký khoá học</p>
               </div>
-              <div class="form-gallery__name">
-                <object
-                  class="form-gallery__icon"
-                  type="image/svg+xml"
-                  data="./img/svg/Message.svg"
-                ></object>
-                <label for="email" hidden>email</label>
-                <input
-                  class="form-gallery__validate"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                  required
-                />
-              </div>
-              <div class="form-gallery__name">
-                <object
-                  class="form-gallery__icon"
-                  type="image/svg+xml"
-                  data="./img/svg/Callicon.svg"
-                ></object>
-                <label for="number" hidden>Số điện thoại</label>
-                <input
-                  class="form-gallery__validate"
-                  type="text"
-                  name="number"
-                  id="number"
-                  placeholder="Số điện thoại"
-                />
-              </div>
+              <div class="form-gallery__authform">
+                <div class="form-gallery__name">
+                  <object
+                    class="form-gallery__icon"
+                    type="image/svg+xml"
+                    data="./img/svg/Profile.svg"
+                  ></object>
+                  <label for="name" hidden>Họ và tên</label>
+                  <input
+                    class="form-gallery__validate"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Họ và tên"
+                    required
+                  />
+                </div>
+                <div class="form-gallery__name">
+                  <object
+                    class="form-gallery__icon"
+                    type="image/svg+xml"
+                    data="./img/svg/Message.svg"
+                  ></object>
+                  <label for="email" hidden>email</label>
+                  <input
+                    class="form-gallery__validate"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="form-gallery__name">
+                  <object
+                    class="form-gallery__icon"
+                    type="image/svg+xml"
+                    data="./img/svg/Callicon.svg"
+                  ></object>
+                  <label for="number" hidden>Số điện thoại</label>
+                  <input
+                    class="form-gallery__validate"
+                    type="text"
+                    name="number"
+                    id="number"
+                    placeholder="Số điện thoại"
+                  />
+                </div>
 
-              <div class="form-gallery__sort">
-                <div class="form-gallery__courses">
-                  <object
-                    class="form-gallery__icon"
-                    type="image/svg+xml"
-                    data="./img/svg/Calendar.svg"
-                  ></object>
-                  <label for="date" hidden></label>
-                  <input
-                    class="form-gallery__course"
-                    type="text"
-                    name="date"
-                    id="date"
-                    placeholder="DD/MM/YY"
-                  />
-                  <object
-                    class="form-gallery__droplist"
-                    type="image/svg+xml"
-                    data="./img/svg/arrowdown.svg"
-                  ></object>
+                <div class="form-gallery__sort">
+                  <div class="form-gallery__courses">
+                    <object
+                      class="form-gallery__icon"
+                      type="image/svg+xml"
+                      data="./img/svg/Calendar.svg"
+                    ></object>
+                    <label for="date" hidden></label>
+                    <input
+                      class="form-gallery__course"
+                      type="text"
+                      name="date"
+                      id="date"
+                      placeholder="DD/MM/YY"
+                    />
+                    <object
+                      class="form-gallery__droplist"
+                      type="image/svg+xml"
+                      data="./img/svg/arrowdown.svg"
+                    ></object>
+                  </div>
+                  <div class="form-gallery__courses">
+                    <object
+                      class="form-gallery__icon"
+                      type="image/svg+xml"
+                      data="./img/svg/Document.svg"
+                    ></object>
+                    <label for="courses"></label>
+                    <input
+                      class="form-gallery__course have-tick"
+                      type="text"
+                      name="courses"
+                      id="courses"
+                      placeholder="Chọn khoá học"
+                    />
+                    <object
+                      class="form-gallery__droplist"
+                      type="image/svg+xml"
+                      data="./img/svg/arrowdown.svg"
+                    ></object>
+                  </div>
                 </div>
-                <div class="form-gallery__courses">
-                  <object
-                    class="form-gallery__icon"
-                    type="image/svg+xml"
-                    data="./img/svg/Document.svg"
-                  ></object>
-                  <label for="courses"></label>
-                  <input
-                    class="form-gallery__course have-tick"
-                    type="text"
-                    name="courses"
-                    id="courses"
-                    placeholder="Chọn khoá học"
-                  />
-                  <object
-                    class="form-gallery__droplist"
-                    type="image/svg+xml"
-                    data="./img/svg/arrowdown.svg"
-                  ></object>
+                <div class="form-gallery__sort">
+                  <div class="form-gallery__courses">
+                    <object
+                      class="form-gallery__icon"
+                      type="image/svg+xml"
+                      data="./img/svg/wheelicon.svg"
+                    ></object>
+                    <label for="choosecar" hidden>Loại xe</label>
+                    <input
+                      class="form-gallery__course"
+                      type="text"
+                      name="choosecar"
+                      id="choosecar"
+                      placeholder="Loại xe"
+                      required
+                    />
+                  </div>
+                  <div class="form-gallery__courses">
+                    <object
+                      class="form-gallery__icon"
+                      type="image/svg+xml"
+                      data="./img/svg/Time Circle.svg"
+                    ></object>
+                    <label for="time" hidden>Thời gian</label>
+                    <input
+                      class="form-gallery__course"
+                      type="text"
+                      id="time"
+                      name="time"
+                      max="23:00"
+                      placeholder="Thời gian"
+                      required
+                    />
+                  </div>
                 </div>
+                <button class="form-gallery__button" type="submit">
+                  Đăng Ký Khoá Học
+                </button>
               </div>
-              <div class="form-gallery__sort">
-                <div class="form-gallery__courses">
-                  <object
-                    class="form-gallery__icon"
-                    type="image/svg+xml"
-                    data="./img/svg/wheelicon.svg"
-                  ></object>
-                  <label for="choosecar" hidden>Loại xe</label>
-                  <input
-                    class="form-gallery__course"
-                    type="text"
-                    name="choosecar"
-                    id="choosecar"
-                    placeholder="Loại xe"
-                    required
-                  />
-                </div>
-                <div class="form-gallery__courses">
-                  <object
-                    class="form-gallery__icon"
-                    type="image/svg+xml"
-                    data="./img/svg/Time Circle.svg"
-                  ></object>
-                  <label for="time" hidden>Thời gian</label>
-                  <input
-                    class="form-gallery__course"
-                    type="text"
-                    id="time"
-                    name="time"
-                    max="23:00"
-                    placeholder="Thời gian"
-                    required
-                  />
-                </div>
-              </div>
-              <button class="form-gallery__button" type="submit">
-                Đăng Ký Khoá Học
-              </button>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
 
         <div class="introduce">
-          <div class="product__img">
-            <img
-              class="product__img--luxcar"
-              src="./img/luxurycar.png"
-              alt="luxurycar"
-            />
-            <img
-              class="product__img--normalcar"
-              src="./img/Rectangle.png"
-              alt="normalcar"
-            />
-            <img
-              class="product__img--dotcar"
-              src="./img/dot.png"
-              alt="boarddot"
-            />
-          </div>
-          <div class="product__information">
-            <div class="product__information--title">
-              <div class="line-product"></div>
-              <p>Về chúng tôi</p>
+          <div class="introduct-width">
+            <div class="product__img">
+              <img
+                class="product__img--luxcar"
+                src="./img/luxurycar.png"
+                alt="luxurycar"
+              />
+              <img
+                class="product__img--normalcar"
+                src="./img/Rectangle.png"
+                alt="normalcar"
+              />
+              <img
+                class="product__img--dotcar"
+                src="./img/dot.png"
+                alt="boarddot"
+              />
             </div>
-            <div class="product__information--main">
-              <h1>Trung tâm đào tạo hàng đầu</h1>
-              <p>
-                Lời đầu tiên, cho phép chúng tôi gửi tới quý khách những lời
-                chúc an lành và tốt đẹp nhất.
-              </p>
-              <p>
-                Là một trong những doanh nghiệp lớn tại VN, hoạt động chuyên về
-                lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng B1 (Số tự động)
-                hạng B2 (Số sàn) và hạng C (Tải). Sau nhiều năm hoạt động, được
-                sự ủng hộ và tin tưởng của quý học viên, Trung tâm Đào Tạo và
-                Sát Hạch lái xe chúng tôi đã không ngừng nổ lực nâng cao chất
-                lượng đào tạo. Và hiện nay, chúng tôi đã tập trung đầu tư mạnh
-                về phương tiện và thiết bị cảm ứng nhằm phục vụ tốt hơn nữa
-                trong công tác đào tạo.
-              </p>
-              <button class="btn-inline">Xem thêm <span>&rarr;</span></button>
+            <div class="product__information">
+              <div class="product__information--title">
+                <div class="line-product"></div>
+                <p>Về chúng tôi</p>
+              </div>
+              <div class="product__information--main">
+                <h1>Trung tâm đào tạo hàng đầu</h1>
+                <p>
+                  Lời đầu tiên, cho phép chúng tôi gửi tới quý khách những lời
+                  chúc an lành và tốt đẹp nhất.
+                </p>
+                <p>
+                  Là một trong những doanh nghiệp lớn tại VN, hoạt động chuyên
+                  về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng B1 (Số tự
+                  động) hạng B2 (Số sàn) và hạng C (Tải). Sau nhiều năm hoạt
+                  động, được sự ủng hộ và tin tưởng của quý học viên, Trung tâm
+                  Đào Tạo và Sát Hạch lái xe chúng tôi đã không ngừng nổ lực
+                  nâng cao chất lượng đào tạo. Và hiện nay, chúng tôi đã tập
+                  trung đầu tư mạnh về phương tiện và thiết bị cảm ứng nhằm phục
+                  vụ tốt hơn nữa trong công tác đào tạo.
+                </p>
+                <button class="btn-inline">Xem thêm <span>&rarr;</span></button>
+              </div>
             </div>
           </div>
         </div>
@@ -384,56 +411,60 @@
           </div>
         </div>
 
-        <div class="introduce introducev2">
-          <div class="product__img product__imgv2">
-            <img
-              class="product__imgv2--luxcar2"
-              src="./img/carv2.png"
-              alt="carv2"
-            />
-            <img
-              class="product__imgv2--normalcar2"
-              src="./img/backgroundcar2.0.png"
-              alt="normalcar2"
-            />
-            <img
-              class="product__imgv2--dotcar2"
-              src="./img/backgroundcar2.1.png"
-              alt="boarddot2"
-            />
-            <img
-              class="product__imgv2--normalcar3"
-              src="./img/backgroundcar2.0.png"
-              alt="normalcar3"
-            />
-          </div>
-          <div class="product__information">
-            <div class="product__information--title">
-              <div class="line-product"></div>
-              <p>Lựa chọn sáng suốt</p>
+        <div class="introduce">
+          <div class="introduct-width introducev2">
+            <div class="product__img product__imgv2">
+              <img
+                class="product__imgv2--luxcar2"
+                src="./img/carv2.png"
+                alt="carv2"
+              />
+              <img
+                class="product__imgv2--normalcar2"
+                src="./img/backgroundcar2.0.png"
+                alt="normalcar2"
+              />
+              <img
+                class="product__imgv2--dotcar2"
+                src="./img/backgroundcar2.1.png"
+                alt="boarddot2"
+              />
+              <img
+                class="product__imgv2--normalcar3"
+                src="./img/backgroundcar2.0.png"
+                alt="normalcar3"
+              />
             </div>
-            <div class="product__information--main product__mainv2">
-              <h1>
-                Công nghệ kỹ thuật số giúp việc học lái xe dễ dàng hơn nhiều
-              </h1>
-              <div class="product__mainv2--haveimg">
-                <img src="/img/producttop.png" alt="producttop" />
-                <div class="product__mainv2--text">
-                  <h3>Là một trong những doanh nghiệp lớn tại VN</h3>
-                  <p>
-                    Chúng tôi đã tập trung đầu tư mạnh về phương tiện và thiết
-                    bị cảm ứng nhằm phục vụ tốt hơn nữa trong công tác đào tạo.
-                  </p>
-                </div>
+            <div class="product__information">
+              <div class="product__information--title">
+                <div class="line-product"></div>
+                <p>Lựa chọn sáng suốt</p>
               </div>
-              <div class="product__mainv2--haveimg">
-                <img src="./img/productbottom.png" alt="productbottom" />
-                <div class="product__mainv2--text">
-                  <h3>Đội ngũ giảng viên ưu tú</h3>
-                  <p>
-                    Là một trong những doanh nghiệp lớn tại VN, hoạt động chuyên
-                    về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng B1
-                  </p>
+              <div class="product__information--main product__mainv2">
+                <h1>
+                  Công nghệ kỹ thuật số giúp việc học lái xe dễ dàng hơn nhiều
+                </h1>
+                <div class="product__mainv2--haveimg">
+                  <img src="/img/producttop.png" alt="producttop" />
+                  <div class="product__mainv2--text">
+                    <h3>Là một trong những doanh nghiệp lớn tại VN</h3>
+                    <p>
+                      Chúng tôi đã tập trung đầu tư mạnh về phương tiện và thiết
+                      bị cảm ứng nhằm phục vụ tốt hơn nữa trong công tác đào
+                      tạo.
+                    </p>
+                  </div>
+                </div>
+                <div class="product__mainv2--haveimg">
+                  <img src="./img/productbottom.png" alt="productbottom" />
+                  <div class="product__mainv2--text">
+                    <h3>Đội ngũ giảng viên ưu tú</h3>
+                    <p>
+                      Là một trong những doanh nghiệp lớn tại VN, hoạt động
+                      chuyên về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng
+                      B1
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -458,99 +489,101 @@
             </button>
           </div>
           <div class="choose-courses">
-            <div class="choose-courses__block">
-              <div class="choose-courses__notice">
-                <div class="line-product"></div>
-                <p>Khoá học</p>
+            <div class="choose-coursewidth">
+              <div class="choose-courses__block">
+                <div class="choose-courses__notice">
+                  <div class="line-product"></div>
+                  <p>Khoá học</p>
+                </div>
+                <h1 class="choose-courses__title">Lựa chọn khoá học phù hợp</h1>
               </div>
-              <h1 class="choose-courses__title">Lựa chọn khoá học phù hợp</h1>
-            </div>
-            <div class="choose-courses__tags">
-              <div class="choose-courses__tagcourse">
-                <div class="choose-courses__tagcourse--image">
-                  <img src="./img/drive1.png" alt="Day hoc phan 1" />
-                  <p>12.000.000</p>
+              <div class="choose-courses__tags">
+                <div class="choose-courses__tagcourse">
+                  <div class="choose-courses__tagcourse--image">
+                    <img src="./img/drive1.png" alt="Day hoc phan 1" />
+                    <p>12.000.000</p>
+                  </div>
+                  <div class="choose-courses__tagcourse--content">
+                    <div class="choose-courses__tagcourse--dateoftime">
+                      <div class="choose-courses__tagcourse--chart">
+                        <img src="./img/Chartcar.png" alt="bieu do" />
+                        <p>Cho người mới</p>
+                      </div>
+                      <div class="choose-courses__tagcourse--chart">
+                        <img src="./img/TimeCircledrive.png" alt="thoi gian" />
+                        <p>2 tháng</p>
+                      </div>
+                    </div>
+                    <div class="choose-courses__tagcourse--posts">
+                      <h3>Lái xe tự động từ 4-9 chỗ</h3>
+                      <p>
+                        Là một trong những doanh nghiệp lớn tại VN, hoạt động
+                        chuyên về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng
+                        B1
+                      </p>
+                    </div>
+                    <button class="choose-courses__tagcourse--button">
+                      Đăng Ký
+                    </button>
+                  </div>
                 </div>
-                <div class="choose-courses__tagcourse--content">
-                  <div class="choose-courses__tagcourse--dateoftime">
-                    <div class="choose-courses__tagcourse--chart">
-                      <img src="./img/Chartcar.png" alt="bieu do" />
-                      <p>Cho người mới</p>
-                    </div>
-                    <div class="choose-courses__tagcourse--chart">
-                      <img src="./img/TimeCircledrive.png" alt="thoi gian" />
-                      <p>2 tháng</p>
-                    </div>
+                <div class="choose-courses__tagcourse">
+                  <div class="choose-courses__tagcourse--image">
+                    <img src="./img/drive3.png" alt="Day hoc phan 1" />
+                    <p>18.000.000</p>
                   </div>
-                  <div class="choose-courses__tagcourse--posts">
-                    <h3>Lái xe tự động từ 4-9 chỗ</h3>
-                    <p>
-                      Là một trong những doanh nghiệp lớn tại VN, hoạt động
-                      chuyên về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng
-                      B1
-                    </p>
+                  <div class="choose-courses__tagcourse--content">
+                    <div class="choose-courses__tagcourse--dateoftime">
+                      <div class="choose-courses__tagcourse--chart">
+                        <img src="./img/Chartcar.png" alt="bieu do" />
+                        <p>Cho người mới</p>
+                      </div>
+                      <div class="choose-courses__tagcourse--chart">
+                        <img src="./img/TimeCircledrive.png" alt="thoi gian" />
+                        <p>2 tháng</p>
+                      </div>
+                    </div>
+                    <div class="choose-courses__tagcourse--posts">
+                      <h3>Lái xe tự động từ 4-9 chỗ</h3>
+                      <p>
+                        Là một trong những doanh nghiệp lớn tại VN, hoạt động
+                        chuyên về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng
+                        B1
+                      </p>
+                    </div>
+                    <button class="choose-courses__tagcourse--button">
+                      Đăng Ký
+                    </button>
                   </div>
-                  <button class="choose-courses__tagcourse--button">
-                    Đăng Ký
-                  </button>
                 </div>
-              </div>
-              <div class="choose-courses__tagcourse">
-                <div class="choose-courses__tagcourse--image">
-                  <img src="./img/drive3.png" alt="Day hoc phan 1" />
-                  <p>18.000.000</p>
-                </div>
-                <div class="choose-courses__tagcourse--content">
-                  <div class="choose-courses__tagcourse--dateoftime">
-                    <div class="choose-courses__tagcourse--chart">
-                      <img src="./img/Chartcar.png" alt="bieu do" />
-                      <p>Cho người mới</p>
-                    </div>
-                    <div class="choose-courses__tagcourse--chart">
-                      <img src="./img/TimeCircledrive.png" alt="thoi gian" />
-                      <p>2 tháng</p>
-                    </div>
+                <div class="choose-courses__tagcourse">
+                  <div class="choose-courses__tagcourse--image">
+                    <img src="./img/drive2.png" alt="Day hoc phan 1" />
+                    <p>30.000.000</p>
                   </div>
-                  <div class="choose-courses__tagcourse--posts">
-                    <h3>Lái xe tự động từ 4-9 chỗ</h3>
-                    <p>
-                      Là một trong những doanh nghiệp lớn tại VN, hoạt động
-                      chuyên về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng
-                      B1
-                    </p>
-                  </div>
-                  <button class="choose-courses__tagcourse--button">
-                    Đăng Ký
-                  </button>
-                </div>
-              </div>
-              <div class="choose-courses__tagcourse">
-                <div class="choose-courses__tagcourse--image">
-                  <img src="./img/drive2.png" alt="Day hoc phan 1" />
-                  <p>30.000.000</p>
-                </div>
-                <div class="choose-courses__tagcourse--content">
-                  <div class="choose-courses__tagcourse--dateoftime">
-                    <div class="choose-courses__tagcourse--chart">
-                      <img src="./img/Chartcar.png" alt="bieu do" />
-                      <p>Cho người mới</p>
+                  <div class="choose-courses__tagcourse--content">
+                    <div class="choose-courses__tagcourse--dateoftime">
+                      <div class="choose-courses__tagcourse--chart">
+                        <img src="./img/Chartcar.png" alt="bieu do" />
+                        <p>Cho người mới</p>
+                      </div>
+                      <div class="choose-courses__tagcourse--chart">
+                        <img src="./img/TimeCircledrive.png" alt="thoi gian" />
+                        <p>2 tháng</p>
+                      </div>
                     </div>
-                    <div class="choose-courses__tagcourse--chart">
-                      <img src="./img/TimeCircledrive.png" alt="thoi gian" />
-                      <p>2 tháng</p>
+                    <div class="choose-courses__tagcourse--posts">
+                      <h3>Lái xe tự động từ 4-9 chỗ</h3>
+                      <p>
+                        Là một trong những doanh nghiệp lớn tại VN, hoạt động
+                        chuyên về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng
+                        B1
+                      </p>
                     </div>
+                    <button class="choose-courses__tagcourse--button">
+                      Đăng Ký
+                    </button>
                   </div>
-                  <div class="choose-courses__tagcourse--posts">
-                    <h3>Lái xe tự động từ 4-9 chỗ</h3>
-                    <p>
-                      Là một trong những doanh nghiệp lớn tại VN, hoạt động
-                      chuyên về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng
-                      B1
-                    </p>
-                  </div>
-                  <button class="choose-courses__tagcourse--button">
-                    Đăng Ký
-                  </button>
                 </div>
               </div>
             </div>
@@ -562,8 +595,9 @@
           </div>
         </div>
 
-        <div class="advice-email">
+        <div class="advice-email">  
           <form action="#" class="validate-form">
+            <img class="validate-form__dot" src="./img/dotadviceemail.png" alt="dotemail">
             <div class="validate-form__title">
               <h1>Bạn cần hỗ trợ</h1>
               <p>Để lại câu hỏi chúng tôi sẽ giải đáp thắc mắc của bạn</p>
@@ -603,121 +637,123 @@ Nội dung câu hỏi</textarea
       </main>
 
       <footer class="footer">
-        <div class="footer-first">
-          <div class="register-email">
-            <div class="register-email__title">
-              <h3>Đăng ký để nhận thông báo mới</h3>
-              <p>
-                Vui lòng để lại email để nhận thông báo sớm nhất từ chúng tôi
-              </p>
-            </div>
-            <div class="register-email__inputemail">
-              <input
-                class="register-email__inputform"
-                type="email"
-                name="inputemail"
-                id="inputemail"
-                placeholder="Nhập email của bạn"
-              />
-              <button>Đăng ký</button>
-            </div>
-          </div>
-          <div class="line-inside"></div>
-          <div class="total-infor">
-            <div class="total-infor__infor">
-              <div class="total-infor__title">
-                <img
-                  class="total-infor__img"
-                  src="./img/logo/logolachong.png"
-                  alt="logo footer"
+        <div class="footer-cover">
+          <div class="footer-first">
+            <div class="register-email">
+              <div class="register-email__title">
+                <h3>Đăng ký để nhận thông báo mới</h3>
+                <p>
+                  Vui lòng để lại email để nhận thông báo sớm nhất từ chúng tôi
+                </p>
+              </div>
+              <div class="register-email__inputemail">
+                <input
+                  class="register-email__inputform"
+                  type="email"
+                  name="inputemail"
+                  id="inputemail"
+                  placeholder="Nhập email của bạn"
                 />
-                <h1>
-                  Trung tâm đào tạo <br />
-                  sát hạch lái xe Lạc Hồng
-                </h1>
-              </div>
-              <p>
-                Là một trong những doanh nghiệp lớn tại VN, hoạt động chuyên về
-                lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng B1 (Số tự động)
-                hạng B2 (Số sàn) và hạng C (Tải). Sau nhiều năm hoạt động, được
-                sự ủng hộ và tin tưởng của quý học viên, Trung tâm Đào Tạo và
-                Sát Hạch lái xe chúng tôi đã không ngừng nổ lực nâng cao chất
-                lượng đào tạo.
-              </p>
-              <div class="total-infor__social">
-                <a href="https://www.facebook.com/">
-                  <object
-                    type="image/svg+xml"
-                    data="./img/svg/facebook.svg"
-                  ></object>
-                </a>
-                <a href="https://twitter.com/?lang=vi">
-                  <object
-                    type="image/svg+xml"
-                    data="./img/svg/twitter.svg"
-                  ></object>
-                </a>
-                <a href="https://www.pinterest.com/">
-                  <object
-                    type="image/svg+xml"
-                    data="./img/svg/pintest.svg"
-                  ></object>
-                </a>
-                <a href="https://gco.vn/gco-09-2020/">
-                  <object
-                    type="image/svg+xml"
-                    data="./img/svg/chain.svg"
-                  ></object>
-                </a>
+                <button>Đăng ký</button>
               </div>
             </div>
-            <div class="total-infor__service">
-              <h3 class="total-infor__name">Dịch vụ</h3>
-              <p class="total-infor__desciption">Xe số tự động</p>
-              <p class="total-infor__desciption">Chuyển đổi xe</p>
-              <p class="total-infor__desciption">Xe số tự động</p>
-              <p class="total-infor__desciption">Chuyển đổi xe</p>
-              <p class="total-infor__desciption">Xe số tự động</p>
-            </div>
-            <div class="total-infor__menu">
-              <h3 class="total-infor__name">Menu</h3>
-              <p class="total-infor__desciption">Trang chủ</p>
-              <p class="total-infor__desciption">Giới thiệu</p>
-              <p class="total-infor__desciption">Thông tin</p>
-              <p class="total-infor__desciption">Đào tạo</p>
-              <p class="total-infor__desciption">Tin tức</p>
-              <p class="total-infor__desciption">Ảnh/video</p>
-            </div>
-            <div class="total-infor__contact">
-              <h3 class="total-infor__name">Liên hệ</h3>
-              <p class="total-infor__desciption">
-                <a href="https://www.facebook.com/">
-                  <object
-                    type="image/svg+xml"
-                    data="./img/svg/Call.svg"
-                  ></object>
-                </a>
+            <div class="line-inside"></div>
+            <div class="total-infor">
+              <div class="total-infor__infor">
+                <div class="total-infor__title">
+                  <img
+                    class="total-infor__img"
+                    src="./img/logo/logolachong.png"
+                    alt="logo footer"
+                  />
+                  <h1>
+                    Trung tâm đào tạo <br />
+                    sát hạch lái xe Lạc Hồng
+                  </h1>
+                </div>
+                <p>
+                  Là một trong những doanh nghiệp lớn tại VN, hoạt động chuyên
+                  về lĩnh vực Đào Tạo và Sát Hạch thi lấy GPLX hạng B1 (Số tự
+                  động) hạng B2 (Số sàn) và hạng C (Tải). Sau nhiều năm hoạt
+                  động, được sự ủng hộ và tin tưởng của quý học viên, Trung tâm
+                  Đào Tạo và Sát Hạch lái xe chúng tôi đã không ngừng nổ lực
+                  nâng cao chất lượng đào tạo.
+                </p>
+                <div class="total-infor__social">
+                  <a href="https://www.facebook.com/">
+                    <object
+                      type="image/svg+xml"
+                      data="./img/svg/facebook.svg"
+                    ></object>
+                  </a>
+                  <a href="https://twitter.com/?lang=vi">
+                    <object
+                      type="image/svg+xml"
+                      data="./img/svg/twitter.svg"
+                    ></object>
+                  </a>
+                  <a href="https://www.pinterest.com/">
+                    <object
+                      type="image/svg+xml"
+                      data="./img/svg/pintest.svg"
+                    ></object>
+                  </a>
+                  <a href="https://gco.vn/gco-09-2020/">
+                    <object
+                      type="image/svg+xml"
+                      data="./img/svg/chain.svg"
+                    ></object>
+                  </a>
+                </div>
+              </div>
+              <div class="total-infor__service">
+                <h3 class="total-infor__name">Dịch vụ</h3>
+                <p class="total-infor__desciption">Xe số tự động</p>
+                <p class="total-infor__desciption">Chuyển đổi xe</p>
+                <p class="total-infor__desciption">Xe số tự động</p>
+                <p class="total-infor__desciption">Chuyển đổi xe</p>
+                <p class="total-infor__desciption">Xe số tự động</p>
+              </div>
+              <div class="total-infor__menu">
+                <h3 class="total-infor__name">Menu</h3>
+                <p class="total-infor__desciption">Trang chủ</p>
+                <p class="total-infor__desciption">Giới thiệu</p>
+                <p class="total-infor__desciption">Thông tin</p>
+                <p class="total-infor__desciption">Đào tạo</p>
+                <p class="total-infor__desciption">Tin tức</p>
+                <p class="total-infor__desciption">Ảnh/video</p>
+              </div>
+              <div class="total-infor__contact">
+                <h3 class="total-infor__name">Liên hệ</h3>
+                <p class="total-infor__desciption">
+                  <a href="https://www.facebook.com/">
+                    <object
+                      type="image/svg+xml"
+                      data="./img/svg/Call.svg"
+                    ></object>
+                  </a>
 
-                0799 405 060
-              </p>
-              <p class="total-infor__desciption">
-                <a href="#">
-                  <object
-                    type="image/svg+xml"
-                    data="./img/svg/Messagefooter.svg"
-                  ></object>
-                </a>
-                dinhbao2601.work@gmail.com
-              </p>
-              <p class="total-infor__desciption">
-                <a href="#">
-                  <object
-                    type="image/svg+xml"
-                    data="./img/svg/Locationfooter.svg"
-                  ></object>
-                </a>
-                tổ 34 thị trấn Liên Nghĩa Đức Trọng tỉnh Lâm Đồng
-              </p>
+                  0799 405 060
+                </p>
+                <p class="total-infor__desciption">
+                  <a href="#">
+                    <object
+                      type="image/svg+xml"
+                      data="./img/svg/Messagefooter.svg"
+                    ></object>
+                  </a>
+                  dinhbao2601.work@gmail.com
+                </p>
+                <p class="total-infor__desciption">
+                  <a href="#">
+                    <object
+                      type="image/svg+xml"
+                      data="./img/svg/Locationfooter.svg"
+                    ></object>
+                  </a>
+                  tổ 34 thị trấn Liên Nghĩa Đức Trọng tỉnh Lâm Đồng
+                </p>
+              </div>
             </div>
           </div>
         </div>
