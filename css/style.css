@@ -38,8 +38,7 @@ body {
   line-height: 1.6;
   color: var(--color-grey-dark-2);
   background-color: var(--color-grey-light-0);
-  min-height: 100vh;
-  max-width: 144rem; }
+  min-height: 100vh; }
 
 footer {
   display: flex;
@@ -613,6 +612,13 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%; }
+    @media only screen and (max-width: 75em) {
+      .courses-introduce__block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-content: center;
+        place-items: center;
+        row-gap: 5rem; } }
     @media only screen and (max-width: 56.25em) {
       .courses-introduce__block {
         display: grid;
