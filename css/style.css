@@ -253,7 +253,7 @@ footer {
   align-items: center;
   justify-content: end;
   height: 55rem;
-  background-image: url(./img/landscape.png);
+  background-image: url(../img/landscape.png);
   background-size: cover;
   position: relative; }
   @media only screen and (max-width: 40em) {
@@ -942,7 +942,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./img/image-adviceemail.png);
+  background-image: url(../img/image-adviceemail.png);
   background-size: cover;
   height: 59.1rem; }
 
