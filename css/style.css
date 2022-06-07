@@ -49,6 +49,42 @@ footer {
     margin: auto;
     margin: auto; }
 
+.img-slide .owl-carousel {
+  position: relative; }
+
+.owl-stage-outer {
+  height: 55rem; }
+
+.owl-dot {
+  display: none; }
+
+.owl-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 1rem;
+  height: 100%;
+  width: 100%; }
+  .owl-nav .owl-prev {
+    margin-left: 5rem; }
+  .owl-nav .owl-next {
+    margin-right: 5rem; }
+
+.owl-prev span,
+.owl-next span {
+  font-size: 9rem; }
+
+.form-courses {
+  right: 15rem;
+  top: 35rem;
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  padding: 2rem;
+  width: 42rem;
+  border-radius: 6px; }
+
 .social-nav {
   height: 5rem;
   background-color: var(--color-primary);
@@ -1278,6 +1314,10 @@ footer {
   left: 0;
   width: 3rem;
   border-top: 1px solid var(--color-primary); }
+
+.nice .image {
+  width: 10rem;
+  height: 10rem; }
 
 .header {
   display: block; }
