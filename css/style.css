@@ -1193,8 +1193,7 @@ footer {
           color: #4f69f7; }
     .footer-first .register-email__inputform {
       width: 31.1rem;
-      padding: 1.71rem 0;
-      padding-left: 1.2rem;
+      padding: 1.71rem 1.2rem;
       border: none;
       border-right: 1px solid #4f69f7; }
       .footer-first .register-email__inputform:focus-visible {
